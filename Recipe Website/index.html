@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Delicious </h1>
+        <p><b>Recipes</b></p>
+    </div>
+    <div id="navbar">
+        <a class="active" href="javascript:void(0)">Home</a>
+        <a href="Recipes.html">Recipes&#127858</a>
+        <a href="About.html">About	&#128100</a>
+    </div> 
+      <body>
+        <div id="Go"style="text-align:center">
+          <h2>Latest Recipes</h2>
+          <p>Check out my latest recipes which include a mix of newly</p>
+           <p>published recipes and updated existing recipes posts.</p>
+        </div>
+        
+        <!-- Fast Food -->
+        <div class="container">
+          <div class="row">
+            <div class="column-66">
+              <h1 class="xlarge-font"><b>Fast Food</b></h1>
+              <h1 class="large-font" style="color:MediumSeaGreen;"><b>MOMOS</b></h1>
+              <p><span style="font-size:36px">A great party starter.</span> I have shown you the traditional filling made on the streets of Darjeeling or Sikkim. They are filled with fresh raw vegetables that are tossed in salt and just a little oil and taste delicious. They make a perfect snack for the kids and an appetizer for parties</p>
+              <button class="button">Recipe</button>
+            </div>
+            <div class="column-33">
+                <img src="img/Tandoori-Momos-2B.jpg" width="335" height="471">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Veg -->
+        <div class="container" style="background-color:#f1f1f1">
+          <div class="row">
+            <div class="column-33">
+              <img src="img/rajma-masala-recipe.jpg" alt="App" width="335" height="471">
+            </div>
+           <div class="column-66">
+              <h1 class="xlarge-font"><b>Veg.</b></h1>
+              <h1 class="large-font" style="color:rgb(193, 91, 32);"><b>Rajma Masala</b></h1>
+              <p><span style="font-size:24px">Red Kidney Beans Curry</span> a popular north indian or punjabi curry recipe made with kidney beans and indian spices. the combination of rajma and chawal which is also known as rajma chawal is the staple food of many north indians. it forms a semi-thick gravy which can also be served with jeera rice or even which choice of indian breads like roti or chapati.</p>
+              <button class="button" style="background-color:rgb(193, 91, 32);">Recipe</button>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!--Non Veg -->
+        <div class="container">
+          <div class="row">
+            <div class="column-66">
+              <h1 class="xlarge-font"><b>Non Veg.</b></h1>
+              <h1 class="large-font" style="color:red;"><b>Chicken Masala</b></h1>
+              <p><span style="font-size:36px">Chicken recipe that rivals any restaurant.</span> is an authentic North Indian dish,simply made in the unique amritsari rich and creamy gravy and flavored with fresh cream, butter and fresh tomatoes. Also known as chicken makhani or murgh, this dish is a very well-known recipe in the Indian restaurants. The unique colour of the gravy comes from the tomato puree.</p>
+              <button class="button" style="background-color:red;">Recipe</button>
+            </div>
+            <div class="column-33">
+                <img src="img/Baked-Honey-Glazed-Chicken-Drumsticks-2.jpg" width="335" height="471" >
+            </div>
+          </div>
+        </div>
+        
+        </body>
+  <div class="footer">
+    <h1><span>&copy;Made with ❤ by
+        ꧁Suman kumar jha꧂ </span></h1>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>   
+</body>
+</html>
